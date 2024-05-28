@@ -1,10 +1,11 @@
 import { Container, Box, Heading, Text, VStack, HStack, IconButton, Image, Link, Divider } from "@chakra-ui/react";
+import Navigation from "../components/Navigation.jsx";
 import { FaHeartbeat, FaMobileAlt, FaShieldAlt, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Index = () => {
   return (
     <Container maxW="container.xl" p={4}>
-      {/* Header */}
+      <Navigation />
       <Box as="header" bg="teal.500" color="white" py={4} textAlign="center">
         <Heading as="h1" size="xl">
           Vitatrack
